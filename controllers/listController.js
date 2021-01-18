@@ -17,20 +17,20 @@ module.exports = {
         } = queryObject
 
         // update DB
-        // fs.createReadStream('input/input.csv')
-        //     .pipe(csv())
-        //     .on('data', (row) => {
-        //         const history = new History({
-        //             title: row.MediaTitle,
-        //             timeStamp: getTimestamp(row.TimeStamp),
-        //             country: row.CountryCode,
-        //             city: row.City,
-        //             states: getState(row.CountryCode, row.PostalCode)
-        //         });
-        //         history.save();
-        //     })
-        //     .on('end', async () => {
-        //     });
+        fs.createReadStream('input/input.csv')
+            .pipe(csv())
+            .on('data', (row) => {
+                const history = new History({
+                    title: row.MediaTitle,
+                    timeStamp: getTimestamp(row.TimeStamp),
+                    country: row.CountryCode,
+                    city: row.City,
+                    states: getState(row.CountryCode, row.PostalCode)
+                });
+                history.save();
+            })
+            .on('end', async () => {
+            });
 
         let list;
 
