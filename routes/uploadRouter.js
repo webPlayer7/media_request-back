@@ -3,10 +3,12 @@ var router = express.Router();
 
 var {
     getHistory,
-    postUpload
+    postUpload,
+    deleteUpload
 } = require('../controllers/uploadController');
 
 router.get('/', getHistory);
 router.post('/', postUpload);
+router.delete('/', deleteUpload);
 
 module.exports = router;

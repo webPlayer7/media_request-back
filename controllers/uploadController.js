@@ -2,6 +2,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const multer = require('multer');
 const History = require('../models/History');
+const path = require('path');
 const {
     getTimestamp,
     getState
@@ -37,15 +38,19 @@ module.exports = {
             // update DB
             fs.createReadStream(`input/${req.file.filename}`)
                 .pipe(csv())
-                .on('data', (row) => {
-                    const history = new History({
-                        title: row.MediaTitle,
-                        timeStamp: getTimestamp(row.TimeStamp),
-                        country: row.CountryCode,
-                        city: row.City,
-                        states: getState(row.CountryCode, row.PostalCode)
-                    });
-                    history.save();
+                .on('data', async (row) => {
+                    const isExist = await History.exists({ correlation_id: row.correlation_id });
+                    if (!isExist) {
+                        const history = new History({
+                            correlation_id: row.correlation_id,
+                            title: row.MediaTitle,
+                            timeStamp: getTimestamp(row.TimeStamp),
+                            country: row.CountryCode,
+                            city: row.City,
+                            states: getState(row.CountryCode, row.PostalCode)
+                        });
+                        history.save();
+                    }
                 })
                 .on('end', async () => {
                     fs.readdir('input/', (err, files) => {
@@ -58,4 +63,19 @@ module.exports = {
                 });
         })
     },
+    deleteUpload(req, res) {
+        History.collection.deleteMany({});
+        fs.readdir('input/', (err, files) => {
+            if (err) throw err;
+
+            for (const file of files) {
+                fs.unlink(path.join('input/', file), err => {
+                    if (err) throw err;
+                });
+            }
+        });
+        return res.status(200).send({
+            'message': 'deleted',
+        });
+    }
 }
