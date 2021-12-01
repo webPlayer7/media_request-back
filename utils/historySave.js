@@ -2,6 +2,7 @@ module.exports = {
     getTimestamp(time) {
         return new Date(time).getTime();
     },
+
     getState(countryCode, zipcode) {
         if (countryCode == "US" && zipcode) {
             if (zipcode >= 35000 && zipcode <= 36999) {
@@ -115,5 +116,9 @@ module.exports = {
             return st;
         }
         return null;
+    },
+
+    saveUserInfo(ip) {
+        console.log(ip)
     }
 }   
