@@ -3,6 +3,7 @@ const History = require('../models/History');
 
 module.exports = {
     async getLists(req, res) {
+        console.log(req.headers['x-forwarded-for'] || req.connection.remoteAddress)
         const queryObject = url.parse(req.url, true).query;
         const {
             startTime,
