@@ -1,3 +1,6 @@
+const axios = require('axios');
+const Report = require('../models/Report');
+
 module.exports = {
     getTimestamp(time) {
         return new Date(time).getTime();
@@ -118,7 +121,37 @@ module.exports = {
         return null;
     },
 
-    saveUserInfo(ip) {
-        console.log(ip)
+    async saveUserInfo(ip, guid) {
+        try {            
+            const feed = await axios.get(`${process.env.FEED_URL}`);
+            const {
+                entries
+            } = feed.data;
+            const media = entries.filter(entry => entry.guid === guid);
+            const title = media.length ? media[0].title : "Unknown";
+
+            const {
+                data
+            } = await axios.get(`${process.env.GEO_IP_URL}/${ip}`);
+            const {
+                status,
+                countryCode,
+                region,
+                city,
+                zip
+            } = data;
+    
+            status === "success" && await new Report({
+                title,
+                ip,
+                timeStamp: new Date().getTime(),
+                country: countryCode,
+                states: region,
+                city,
+                zip
+            }).save();
+        } catch (error) {
+            console.log(error.message)
+        }
     }
 }   

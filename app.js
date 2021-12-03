@@ -5,6 +5,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
 
+// Setup ENV
+require('dotenv').config();
+
 var indexRouter = require('./routes/index');
 const checkRedirect = require('./middleware/checkRedirect');
 
