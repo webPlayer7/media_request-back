@@ -1,0 +1,724 @@
+{
+    "$xmlns": {
+        "bc": "http://meta.broadcastcloud.tv/bccore/",
+        "bccontent": "http://meta.broadcastcloud.tv/content",
+        "bc1": "http://meta.broadcastcloud.tv/custom/23",
+        "dcterms": "http://purl.org/dc/terms/",
+        "media": "http://search.yahoo.com/mrss/"
+    },
+    "startIndex": 1,
+    "itemsPerPage": 16,
+    "entryCount": 1,
+    "title": "All Media",
+    "description": null,
+    "image": {
+        "title": "",
+        "link": "https://manage.broadcastcloud.tv/api/feed-export/90_ya-1yIqpytWfnVluk6eLlGC6kVMt1mp9xMHEXqxhRks",
+        "url": ""
+    },
+    "ttl": "60",
+    "link": "https://manage.broadcastcloud.tv/api/feed-export/90_ya-1yIqpytWfnVluk6eLlGC6kVMt1mp9xMHEXqxhRks",
+    "entries": [
+        {
+            "title": "kids-easter-2021",
+            "guid": "5236",
+            "bc$publicId": "5236",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1617575736000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400538000",
+            "bc$duration": "1780.237",
+            "bc$runTime": "1780.237",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:29:40",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/5236/5236_60f05a106fe6d67f7fdbd4e6531b8ff8_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/5236/5236_60f05a106fe6d67f7fdbd4e6531b8ff8_audio.mp3",
+                    "fileSize": "23770000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "121827",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1780.237",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "easter-2021-final",
+            "guid": "5235",
+            "bc$publicId": "5235",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1617574405000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400538000",
+            "bc$duration": "3262.384",
+            "bc$runTime": "3262.384",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:54:22",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/5235/5235_1e44edf9d3811fc1005d52c23f3d3772_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/5235/5235_1e44edf9d3811fc1005d52c23f3d3772_audio.mp3",
+                    "fileSize": "43559000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "120788",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "3262.384",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "easter-2021-service-final",
+            "guid": "5233",
+            "bc$publicId": "5233",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1617494400000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400538000",
+            "bc$duration": "3262.384",
+            "bc$runTime": "3262.384",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:54:22",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/5233/5233_2d501545dcec459fd7ed8a172c6fe4f5_poster_image_1080.jpg",
+                "width": "1920",
+                "height": "1080"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/5233/5233_ac5fb73f13f551a5f03d9b80e11c3322_audio.mp3",
+                    "fileSize": "43559000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "120788",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "3262.384",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Easter 2021 - Default Player",
+            "guid": "5183",
+            "bc$publicId": "5183",
+            "bc$folderId": "718",
+            "bc$mediaUrl": "",
+            "description": "Default player featured on welcome page one easter weekend.",
+            "pubDate": "1616976000000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400529000",
+            "bc$duration": "",
+            "bc$runTime": "",
+            "bc$clipBegin": "",
+            "bc$clipEnd": "",
+            "bc$format": "live",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/5183/5183_8c798b6b90fe4d9a35efab7fcd84fb8f_poster_image_1080.jpg",
+                "width": "1920",
+                "height": "1080"
+            },
+            "media$content": []
+        },
+        {
+            "title": "Easter 2021 - Cascade Kids Player",
+            "guid": "5184",
+            "bc$publicId": "5184",
+            "bc$folderId": "718",
+            "bc$mediaUrl": "",
+            "description": "Player to be featured on the Cascade Kids Easter page.",
+            "pubDate": "1616976000000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400529000",
+            "bc$duration": "",
+            "bc$runTime": "",
+            "bc$clipBegin": "",
+            "bc$clipEnd": "",
+            "bc$format": "live",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/5184/5184_0e5d7c1578be71026f91059e8ec2f6e6_poster_image_1080.jpg",
+                "width": "1920",
+                "height": "1080"
+            },
+            "media$content": []
+        },
+        {
+            "title": "watch-easter-local-30",
+            "guid": "4896",
+            "bc$publicId": "4896",
+            "bc$folderId": "717",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1616612993000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400462000",
+            "bc$duration": "30.207",
+            "bc$runTime": "30.207",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:00:30",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/4896/4896_8dcb2e1fbc0973aa00a0bf76a3467b1a_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/4896/4896_8dcb2e1fbc0973aa00a0bf76a3467b1a_audio.mp3",
+                    "fileSize": "461000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "128005",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "30.207",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "watch-easter-15",
+            "guid": "4895",
+            "bc$publicId": "4895",
+            "bc$folderId": "717",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1616612992000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400462000",
+            "bc$duration": "15.06",
+            "bc$runTime": "15.06",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:00:15",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/4895/4895_ae5dbe2e180a6d6f746f3d0a4c33b186_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/4895/4895_ae5dbe2e180a6d6f746f3d0a4c33b186_audio.mp3",
+                    "fileSize": "230000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "128060",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "15.06",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "watch-easter-global-30",
+            "guid": "4894",
+            "bc$publicId": "4894",
+            "bc$folderId": "717",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1616544000000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632400461000",
+            "bc$duration": "30.079",
+            "bc$runTime": "30.079",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:00:30",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/4894/4894_e21dc1e46098608259a9bcc2be459624_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/4894/4894_e21dc1e46098608259a9bcc2be459624_audio.mp3",
+                    "fileSize": "459000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "128005",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "30.079",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "normal live transcoding stream",
+            "guid": "1169",
+            "bc$publicId": "1169",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611589368000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1618915577000",
+            "bc$duration": "",
+            "bc$runTime": "",
+            "bc$clipBegin": "",
+            "bc$clipEnd": "",
+            "bc$format": "live",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/",
+                "width": "",
+                "height": ""
+            },
+            "media$content": []
+        },
+        {
+            "title": "Cascade Tour Video",
+            "guid": "1161",
+            "bc$publicId": "1161",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611207506000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632399443000",
+            "bc$duration": "1038.905",
+            "bc$runTime": "1038.905",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:17:18",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/1161/1161_ff4b8a94ebed923d139910e03e940182_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/1161/1161_ff4b8a94ebed923d139910e03e940182_audio.mp3",
+                    "fileSize": "15853000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "125550",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1038.905",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "3 So Will I",
+            "guid": "1160",
+            "bc$publicId": "1160",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611207504000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632399443000",
+            "bc$duration": "1620.052",
+            "bc$runTime": "1620.052",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:27:00",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/1160/1160_b541c21e64bec82036cfd812752c8b85_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/1160/1160_b541c21e64bec82036cfd812752c8b85_audio.mp3",
+                    "fileSize": "21631000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "118827",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1620.052",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "1 What Will You Do with the Rest of Your Life",
+            "guid": "1158",
+            "bc$publicId": "1158",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611207501000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632399442000",
+            "bc$duration": "1619.985",
+            "bc$runTime": "1619.985",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:26:59",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/1158/1158_1b538418708f44c79a321ad42857fd1e_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/1158/1158_1b538418708f44c79a321ad42857fd1e_audio.mp3",
+                    "fileSize": "21630000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "113405",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1619.985",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Every Setback is an Opportunity for a Comeback",
+            "guid": "1157",
+            "bc$publicId": "1157",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611207500000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632399442000",
+            "bc$duration": "1620.052",
+            "bc$runTime": "1620.052",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:27:00",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/1157/1157_c94d4c53d28a9070d10d2e1919da38bb_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/1157/1157_c94d4c53d28a9070d10d2e1919da38bb_audio.mp3",
+                    "fileSize": "21631000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "113803",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1620.052",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "2 Lifes 3 Greatest Questions",
+            "guid": "1155",
+            "bc$publicId": "1155",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611207499000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632399442000",
+            "bc$duration": "1620.052",
+            "bc$runTime": "1620.052",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:27:00",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/1155/1155_c63cc17a9c8db30b1ab8524c4a92a775_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/1155/1155_c63cc17a9c8db30b1ab8524c4a92a775_audio.mp3",
+                    "fileSize": "21631000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "113312",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1620.052",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Living on the Edge of Eternity Message Network",
+            "guid": "1156",
+            "bc$publicId": "1156",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611207499000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632399442000",
+            "bc$duration": "1620.052",
+            "bc$runTime": "1620.052",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:27:00",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/1156/1156_94332ed80773fc7b1b68c5933ae444df_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/1156/1156_94332ed80773fc7b1b68c5933ae444df_audio.mp3",
+                    "fileSize": "21631000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "110133",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1620.052",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Instagrace Message 1 Network",
+            "guid": "1154",
+            "bc$publicId": "1154",
+            "bc$folderId": "",
+            "bc$mediaUrl": "",
+            "description": "",
+            "pubDate": "1611207497000",
+            "bc$contentType": null,
+            "bc$order": "",
+            "media$keywords": "",
+            "media$ratings": "",
+            "bc$languages": "en-us",
+            "bc$roles": [],
+            "copyright": "",
+            "bc$credits": "",
+            "bc$revision": "1632399441000",
+            "bc$duration": "1620.052",
+            "bc$runTime": "1620.052",
+            "bc$clipBegin": "00:00:00",
+            "bc$clipEnd": "00:27:00",
+            "bc$format": "vod",
+            "transcript": "",
+            "media$thumbnail": {
+                "url": "https://images.broadcastcloud.tv/broadcastcloud/23/1154/1154_1a6be9ece4f9d5974469f4a43abf63ce_poster_360.jpg",
+                "width": "640",
+                "height": "360"
+            },
+            "media$content": [
+                {
+                    "url": "https://pmd.broadcastcloud.tv/23/1154/1154_1a6be9ece4f9d5974469f4a43abf63ce_audio.mp3",
+                    "fileSize": "21631000",
+                    "type": "audio/mp3",
+                    "medium": "audio",
+                    "isDefault": "true",
+                    "expression": "full",
+                    "bitrate": "110181",
+                    "samplingrate": "",
+                    "channels": "",
+                    "duration": "1620.052",
+                    "lang": "en",
+                    "bccontent$assetTypes": [
+                        "podcastAudio"
+                    ]
+                }
+            ]
+        }
+    ]
+}

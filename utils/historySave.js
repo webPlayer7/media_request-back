@@ -1,4 +1,5 @@
 const axios = require('axios');
+const fs = require('fs');
 const Report = require('../models/Report');
 
 module.exports = {
@@ -122,36 +123,54 @@ module.exports = {
     },
 
     async saveUserInfo(ip, guid) {
-        try {            
-            const feed = await axios.get(`${process.env.FEED_URL}`);
-            const {
-                entries
-            } = feed.data;
-            const media = entries.filter(entry => entry.guid === guid);
-            const title = media.length ? media[0].title : "Unknown";
+        try {
+            fs.readFile('feed/feed.json', 'utf8', async (err, feed) => {
+                if (err) return console.log(err);
+                const {
+                    entries
+                } = JSON.parse(feed);
+                const media = entries.filter(entry => entry.guid === guid);
+                const title = media.length ? media[0].title : "Unknown";
 
-            const {
-                data
-            } = await axios.get(`${process.env.GEO_IP_URL}/${ip}`);
-            const {
-                status,
-                countryCode,
-                region,
-                city,
-                zip
-            } = data;
-    
-            status === "success" && await new Report({
-                title,
-                ip,
-                timeStamp: new Date().getTime(),
-                country: countryCode,
-                states: region,
-                city,
-                zip
-            }).save();
+                const {
+                    data
+                } = await axios.get(`${process.env.GEO_IP_URL}/${ip}`);
+                const {
+                    status,
+                    countryCode,
+                    region,
+                    city,
+                    zip
+                } = data;
+                if (status === "success") {
+                    await new Report({
+                        title,
+                        ip,
+                        timeStamp: new Date().getTime(),
+                        country: countryCode,
+                        states: region,
+                        city,
+                        zip
+                    }).save();
+                } else {
+                    await new Report({
+                        title,
+                        ip,
+                        timeStamp: new Date().getTime(),
+                        country: "Unknown",
+                        states: "Unknown",
+                        city: "Unknown",
+                        zip: "Unknown"
+                    }).save();
+                }
+            });
         } catch (error) {
             console.log(error.message)
         }
+    },
+
+    async saveFeed() {
+        const feed = await axios.get(`${process.env.FEED_URL}`);
+        feed.data.entries?.length && fs.writeFileSync('feed/feed.json', JSON.stringify(feed.data, null, 4));
     }
-}   
+}

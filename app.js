@@ -4,12 +4,14 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
+const cron = require('node-cron');
 
 // Setup ENV
 require('dotenv').config();
 
 var indexRouter = require('./routes/index');
 const checkRedirect = require('./middleware/checkRedirect');
+const { saveFeed } = require('./utils/historySave');
 
 var app = express();
 
@@ -43,6 +45,11 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+cron.schedule('0 0 * * * *', async function () {
+  console.log(new Date())
+  await saveFeed();
 });
 
 module.exports = app;
