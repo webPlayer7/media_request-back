@@ -170,7 +170,11 @@ module.exports = {
     },
 
     async saveFeed() {
-        const feed = await axios.get(`${process.env.FEED_URL}`);
-        feed.data.entries?.length && fs.writeFileSync('feed/feed.json', JSON.stringify(feed.data, null, 4));
+        try {            
+            const feed = await axios.get(`${process.env.FEED_URL}`);
+            feed.data.entries.length && fs.writeFileSync('feed/feed.json', JSON.stringify(feed.data, null, 4));
+        } catch (error) {
+            console.log(error.message)
+        }
     }
 }
